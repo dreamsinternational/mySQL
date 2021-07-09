@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/mystartupmonk/sql
+    - /bin/cp -r * $DEPLOYPATH
