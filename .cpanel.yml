@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/mystartupmonk/sql
+    - export DEPLOYPATH=/home1/mystartupmonk/public_html/
     - /bin/cp -r * $DEPLOYPATH
